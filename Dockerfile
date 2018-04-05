@@ -5,7 +5,7 @@ WORKDIR /root/src/
 ENV LD_LIBRARY_PATH /usr/local/lib:$LD_LIBRARY_PATH
 ENV PATH /opt/conda/bin:$PATH
 
-RUN apt install -y git && \
+RUN apt-get install -y git && \
     wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh && \
     bash Miniconda2-latest-Linux-x86_64.sh -b -p /opt/conda && \
     conda update -y conda && \
