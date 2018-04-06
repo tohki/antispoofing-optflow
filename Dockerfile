@@ -17,7 +17,7 @@ RUN apt-get update && \
     libtbb-dev \
     libjpeg-dev \
     libpng-dev \
-    libtiff-dev && \
+    libtiff-dev \
     git && \
     wget https://jaist.dl.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.13/opencv-2.4.13.zip && \
     unzip opencv-2.4.13.zip && \
