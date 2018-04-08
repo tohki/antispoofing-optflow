@@ -13,7 +13,7 @@ $ docker run -it \
   -v /path/to/database:/DB \
   -v /path/to/result:/RESULT \
   tohki/antispoofing-optflow \
-  optflow_estimate.py --verbose /DB /RESULT replay --protocol=photo \
+  optflow_estimate.py --verbose /DB /RESULT replay --protocol=photo
 ```
 for details and other options, please refer original pypi documentation site[1].
 
